@@ -6,20 +6,19 @@
 		<link rel="favicon image" href="favicon.ico"/>
 	</head>
 	
-	<div class="homepage"><center>
-		<h1>
-			<div class="mainTitle">Please complete the form below!</div>
-		</h1>
-			
-		<body>	
+	<body>	
+		<div class="homepage">
+			<h1 class="title1">Please complete the form below!</h1>
 			<form action="student-response.jsp">
+				<p class="firstNameField">First Name:</p>
+				<p class="lastNameField">Last Name:</p>
 				<div class="nameInput">
-					<p class="firstNameField">First Name: <input type="text" name="firstName"/></p>
-					<p class="lastNameField">Last Name: <input type="text" name="lastName"/></p>
-					<input class="submitButton" type="submit" value="Submit"/>
+					<input type="text" name="firstName"/>
+					<input type="text" name="lastName"/>
+					<input type="submit" value="Submit"/>
 				</div>
 			</form>
-		</body>
-	</div>
+		</div>
+	</body>
 
 </html>

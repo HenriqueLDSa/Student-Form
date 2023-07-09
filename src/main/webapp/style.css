@@ -1,39 +1,39 @@
-/*
-
-*/
-
-.mainTitle{
-	color: dodgerblue; 
-	font-family: 'Courier New';
-	text-align: center;
-}
-
 body {
-	position: relative;
-    margin: 0; 
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('coolbackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
 }
 
-body::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	background-image: url('coolbackground.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	z-index: -1;
-}	
-
-.submitButton{
-	color: dodgerblue;	
+.title1 {
+    color: silver;
+    font-family: 'Courier New';
+    font-size: 22px;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.firstNameField, .lastNameField{
-	color: dodgerblue; 
-	font-family: 'Courier New';
+.firstNameField, .lastNameField {
+    display: block;
+    color: black;
+    font-family: 'Courier New';
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: lightgrey;
 }
 
+.nameInput {
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
