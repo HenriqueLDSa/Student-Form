@@ -1,0 +1,26 @@
+/*
+
+*/
+
+body{
+	background-image: url('coolbackground.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.submitButton{
+	color: dodgerblue;	
+}
+
+.mainTitle{
+	color: dodgerblue; 
+	font-family: 'Courier New';
+	text-align: center;
+}
+
+.firstNameField, .lastNameField{
+	color: dodgerblue; 
+	font-family: 'Courier New';
+}
+

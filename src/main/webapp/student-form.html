@@ -2,45 +2,25 @@
 	
 	<head>
 		<title> Student Registration Form </title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css" type="text/css"/>
 		<link rel="favicon image" href="favicon.ico"/>
-		<style>
-			body {
-  				background-image: url('coolbackground.jpg');
-  				background-size: cover;
-  				background-repeat: no-repeat;
-  				background-position: center;
-			}
-		</style>
 	</head>
 	
-	<h1><center style="color: red; font-family: 'Copperplate';">
-		<br>
-		Welcome to COP3330 assignment 7!
-	</h1>
-
-	<body>	
-	
-		<form action="student-response.jsp"><center>
+	<div class="homepage"><center>
+		<h1>
+			<div class="mainTitle">Please complete the form below!</div>
+		</h1>
+			
+		<body>	
+			<form action="student-response.jsp">
+				<div class="nameInput">
+					<p class="firstNameField">First Name: <input type="text" name="firstName"/></p>
+					<p class="lastNameField">Last Name: <input type="text" name="lastName"/></p>
+					<input class="submitButton" type="submit" value="Submit"/>
+				</div>
+			</form>
 		
-			<br><br><br><br><br><br><br><br><br><br><br><br><br>
-				
-			<p style="color: dodgerblue; font-family: 'Courier New'">
-				
-				First Name: <input type="text" name="firstName" />
-				
-				<br/>
-				
-				Last Name: <input type="text" name="lastName" />
-				
-				<br/><br/>
-				
-				<input type="submit" value="Submit" style="color: dodgerblue; font-family: 'Courier New'"/>
-
-			</p>
-					
-		</form>
-	
-	</body>
+		</body>
+	</div>
 
 </html>
