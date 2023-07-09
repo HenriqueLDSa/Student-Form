@@ -2,21 +2,34 @@
 
 */
 
-body{
-	background-image: url('coolbackground.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.submitButton{
-	color: dodgerblue;	
-}
-
 .mainTitle{
 	color: dodgerblue; 
 	font-family: 'Courier New';
 	text-align: center;
+}
+
+body {
+    position: relative;
+    margin: 0; 
+  	padding: 0;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('coolbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}	
+
+.submitButton{
+	color: dodgerblue;	
 }
 
 .firstNameField, .lastNameField{
