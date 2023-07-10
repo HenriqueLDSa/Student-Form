@@ -68,3 +68,8 @@ body {
     align-items: center;
 }
 
+.fieldContainer input{
+	height: 26px;
+	border-radius: 5px;
+}
+
