@@ -3,8 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh;
-    background-image: url('coolbackground.jpg');
+    background-image: url('backgroundpic.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -18,18 +17,19 @@ body {
 }
 
 .title1 {
-    color: silver;
-    font-family: 'Courier New';
-    font-size: 21px;
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 70px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    position: absolute;
+    top: 0%;
 }
 
 .firstNameField, .lastNameField {
     display: inline-block;
     color: black;
-    font-family: 'Courier New';
+    font-family: 'VT323', monospace, bold;
+    font-size: 30px;
     text-align: center;
     padding: 5px;
     margin: 5px;
@@ -42,24 +42,26 @@ body {
     flex-grow: 1;
 }
 
+form{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 .nameInput {
     text-align: center;
-    margin-top: 45px;
 }
 
 .nameInput input[type="submit"] {
-    font-family: 'Courier New';
-    font-size: 16px;
-    padding: 5px;
-    margin: 5px;
+    font-family: 'VT323', monospace, bold;
+    font-size: 30px;
     border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .nameInput input[type="text"] {
-    width: 100%;
-    padding: 5px;
-    font-family: 'Courier New';
-    font-size: 14px;
+    font-family: 'VT323', monospace, bold;
+    font-size: 60px;
     border-radius: 5px;
 }
 
@@ -69,7 +71,7 @@ body {
 }
 
 .fieldContainer input{
-	height: 26px;
+	height: 40px;
 	border-radius: 5px;
 }
 
