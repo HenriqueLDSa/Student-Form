@@ -2,7 +2,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     background-image: url('backgroundpic.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;

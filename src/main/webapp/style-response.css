@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('backgroundpic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.confirm, .updated{
+	display: inline-block;
+    color: black;
+    font-family: 'VT323', monospace, bold;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.confirm{
+	font-size: 30px;
+}
+
+.updated{
+	font-size: 20px;
+}
